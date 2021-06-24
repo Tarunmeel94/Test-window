@@ -1,0 +1,20 @@
+.sideBar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.sideBar>button {
+    margin: 3px;
+    font-size: 30px;
+    border: transparent;
+    border-radius: 5px;
+}
+
+.sideBar>button:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.9);
+}

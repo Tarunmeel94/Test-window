@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: fit-content;
+}
+
+.container>h1 {
+    color: #575757;
+    margin: 20px;
+    width: auto
+}
+
+.red {
+    background-color: #9c2717;
+    color: white;
+    padding: 10PX;
+    font-size: 22px;
+}
